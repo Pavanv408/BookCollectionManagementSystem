@@ -6,3 +6,5 @@
 [![Cppcheck-Code Quality - Static Code](https://github.com/Pavanv408/BookCollectionManagementSystem/actions/workflows/Cppcheck-Code%20Quality%20-%20Static%20Code%20.yml/badge.svg)](https://github.com/Pavanv408/BookCollectionManagementSystem/actions/workflows/Cppcheck-Code%20Quality%20-%20Static%20Code%20.yml)
 * CI-Coverage
 [![CI-Coverage](https://github.com/Pavanv408/BookCollectionManagementSystem/actions/workflows/gcov.yml/badge.svg)](https://github.com/Pavanv408/BookCollectionManagementSystem/actions/workflows/gcov.yml)
+* Contribution Check - Git Inspector
+[![Contribution Check - Git Inspector](https://github.com/Pavanv408/BookCollectionManagementSystem/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Pavanv408/BookCollectionManagementSystem/actions/workflows/gitinspector.yml)
