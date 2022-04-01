@@ -10,7 +10,5 @@
 [![Contribution Check - Git Inspector](https://github.com/Pavanv408/BookCollectionManagementSystem/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Pavanv408/BookCollectionManagementSystem/actions/workflows/gitinspector.yml)
 * Unit Testing - Unity
 [![Unit Testing - Unity](https://github.com/Pavanv408/BookCollectionManagementSystem/actions/workflows/unity.yml/badge.svg)](https://github.com/Pavanv408/BookCollectionManagementSystem/actions/workflows/unity.yml)
-* code quality score
-https://api.codiga.io/project/32369/score/svg
-* code grade
-https://api.codiga.io/project/32369/status/svg
+* ![code quality score](https://api.codiga.io/project/32369/score/svg)
+* ![code grade](https://api.codiga.io/project/32369/status/svg)
