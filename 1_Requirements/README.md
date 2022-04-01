@@ -36,8 +36,9 @@ Now the Common Features of an LMS Include:
 A system is something formed of parts, each of which interacts with the other parts to achieve some common purpose. In the case of a books management system, the parts work together to support the management of books information resources: their acquisition, representation and circulation.
 
 # SWOT ANALYSIS
-Swot
-![1](https://user-images.githubusercontent.com/101516120/161218322-8822a883-41ae-4225-a933-25ee759c71d5.png)
+
+![image](https://user-images.githubusercontent.com/101516120/161221101-6992e2f5-8971-4eb1-a364-cf25685385ba.png)
+
 
 
 # 4W's and 1'H
@@ -64,8 +65,8 @@ System design is a solution for how to approach to the creation of a new system.
 |-------------|------------------------------------------------------------|------------|
 | HR_01	      | function for User to add books with correct details        |Implemented |
 | HR_02	      | function for User to view books with all details           |Implemented |
-| HR_03	      | function for User to search books with existing book 
-                id and display with issue date due date,member id          |Implemented |
+| HR_03	      | function for User to search books with existing book       |            |
+|             | id and display with issue date due date,member id          |Implemented |
 | HR_04       | function for User to update books with id and book details |Implemented |
 | HR_05       | function for User to delete books with book id             |Implemented |
 Low level Requirements:
