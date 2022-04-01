@@ -71,6 +71,7 @@ System design is a solution for how to approach to the creation of a new system.
 
 # Low level Requirements:
 |ID	    |      Description	                      | Status      |
+|-------|-----------------------------------------|-------------|
 | LR_01 |	Functions to Add book	                  | Implemented |
 | LR_02	| Functions to View books availaible	    | Implemented |
 | LR_03	| Functions to Search the book by ID	    | Implemented |
