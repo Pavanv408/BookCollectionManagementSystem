@@ -65,8 +65,7 @@ System design is a solution for how to approach to the creation of a new system.
 |-------------|------------------------------------------------------------|------------|
 | HR_01	      | function for User to add books with correct details        |Implemented |
 | HR_02	      | function for User to view books with all details           |Implemented |
-| HR_03	      | function for User to search books with existing book       |            |
-|             | id and display with issue date due date,member id          |Implemented |
+| HR_03	      | function for User to search books with existing book id and display with issue date due date,member id      | Implemented           |
 | HR_04       | function for User to update books with id and book details |Implemented |
 | HR_05       | function for User to delete books with book id             |Implemented |
 Low level Requirements:
