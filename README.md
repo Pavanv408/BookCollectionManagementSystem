@@ -8,3 +8,5 @@
 [![CI-Coverage](https://github.com/Pavanv408/BookCollectionManagementSystem/actions/workflows/gcov.yml/badge.svg)](https://github.com/Pavanv408/BookCollectionManagementSystem/actions/workflows/gcov.yml)
 * Contribution Check - Git Inspector
 [![Contribution Check - Git Inspector](https://github.com/Pavanv408/BookCollectionManagementSystem/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Pavanv408/BookCollectionManagementSystem/actions/workflows/gitinspector.yml)
+* Unit Testing - Unity
+[![Unit Testing - Unity](https://github.com/Pavanv408/BookCollectionManagementSystem/actions/workflows/unity.yml/badge.svg)](https://github.com/Pavanv408/BookCollectionManagementSystem/actions/workflows/unity.yml)
