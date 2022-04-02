@@ -23,12 +23,13 @@
 typedef struct book_data {
     int book_id;
     char book_title[20];
+    char book_author[20];
     char status[10];
-    char member_first_name[10];
-    char member_last_name[10];
-    int member_id;
-    char date_of_issue[10];
-    char due_date[10];
+    char student_first_name[10];
+    char student_last_name[10];
+    int student_usn;
+    char date_of_issue[20];
+    char due_date[20];
 }book_data;
 
 /**
@@ -53,7 +54,7 @@ test_values view_a_record(int id);
  * 
  * @return test_values 
  */
-test_values enter_new_record(int id, char title[]);
+test_values enter_new_record(int id, char title[], char author[]);
 
 /**
  * @brief function to update the details and status of a book
@@ -61,7 +62,7 @@ test_values enter_new_record(int id, char title[]);
  * @param id 
  * @return test_values 
  */
-test_values update_record(int id, char new_status[], char new_date_of_issue[], char new_due_date[], char new_member_first_name[],char new_member_last_name[], int new_member_id);
+test_values update_record(int id, char new_status[], char new_date_of_issue[], char new_due_date[], char new_student_first_name[],char new_student_last_name[], int new_student_usn);
 
 /**
  * @brief funtion to denote delete books
