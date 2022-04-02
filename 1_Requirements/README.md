@@ -23,7 +23,7 @@ Librarian- the Librarian is like admin module and responsible for adding & modif
 Librarian also updates the details of issues, returns and reserves the book items.
 The best Book management system offers ease to librarians for better maintenance and efficiency.
 
-Now the Common Features of an LMS Include:
+Now the Common Features of an BMS Include:
 
 1. Add books
 2. View books
