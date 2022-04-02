@@ -17,8 +17,8 @@
  */
 int main()
 {
-    int ch, success, ID, new_member_id;
-    char new_status[10], new_date_of_issue[10], new_due_date[10], new_member_first_name[10],new_member_last_name[10], new_title[20];
+    int ch, success, ID, new_student_usn;
+    char new_status[10], new_date_of_issue[10], new_due_date[10], new_student_first_name[10],new_student_last_name[10], new_title[20] ,new_author[20];
     printf("1. Add books\n2. View books\n3. Search books\n4. Update book records\n5. Delete books\n");
     printf("Enter the choice\n");
     scanf("%d",&ch);
@@ -29,7 +29,9 @@ int main()
         fflush(stdin);
         printf("Enter name of the book\n");
         gets(new_title);
-        success = enter_new_record(ID, new_title);
+        printf("Enter author of the book\n");
+        gets(new_author);
+        success = enter_new_record(ID, new_title,new_author);
     }
     else if(ch == 2)
     {
@@ -54,12 +56,12 @@ int main()
             printf("Enter new due date\n");
             scanf("%s", new_due_date);
             printf("Enter first name of member\n");
-            scanf("%s", new_member_first_name);
+            scanf("%s", new_student_first_name);
             printf("Enter last name of member\n");
-            scanf("%s", new_member_last_name);
+            scanf("%s", new_student_last_name);
             printf("Enter member ID\n");
-            scanf("%d", &new_member_id);
-            success=update_record(ID, new_status, new_date_of_issue, new_due_date, new_member_first_name,new_member_last_name, new_member_id);
+            scanf("%d", &new_student_usn);
+            success=update_record(ID, new_status, new_date_of_issue, new_due_date, new_student_first_name,new_student_last_name, new_student_usn);
         }
     }
     else if (ch==5)
