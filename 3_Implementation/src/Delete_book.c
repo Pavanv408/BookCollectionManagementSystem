@@ -9,7 +9,7 @@
 test_values delete_record(int id){
     FILE *fptr1;
     FILE *fptr2;
-    fptr1 = fopen("library_data.txt","rb");
+    fptr1 = fopen("book_management.txt","rb");
     fptr2 = fopen("temp_data.txt","wb");
     if(fptr1==NULL){
         printf("Unable to open the file\n");
@@ -25,8 +25,8 @@ test_values delete_record(int id){
         fclose(fptr1);
         fclose(fptr2);
         free(discarded_book);
-        remove("library_data.txt");
-        rename("temp_data.txt", "library_data.txt");  
+        remove("book_management.txt");
+        rename("temp_data.txt", "book_management.txt");  
         return pass;
     }   
 }
