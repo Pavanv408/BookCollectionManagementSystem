@@ -41,7 +41,7 @@ typedef enum test_values {
 }test_values;
 
 /**
- * @brief function to find a book by its ID
+ * @brief function to view find a book by its ID
  * 
  * @param id 
  * @return test_values 
@@ -49,14 +49,14 @@ typedef enum test_values {
 test_values view_a_record(int id);
 
 /**
- * @brief function to add new books to the library
+ * @brief function to add new books to the collection
  * 
  * @return test_values 
  */
 test_values enter_new_record(int id, char title[]);
 
 /**
- * @brief function to update the status of a book
+ * @brief function to update the details and status of a book
  * 
  * @param id 
  * @return test_values 
@@ -64,7 +64,7 @@ test_values enter_new_record(int id, char title[]);
 test_values update_record(int id, char new_status[], char new_date_of_issue[], char new_due_date[], char new_member_first_name[],char new_member_last_name[], int new_member_id);
 
 /**
- * @brief funtion to denote discarded books
+ * @brief funtion to denote delete books
  * 
  * @param id 
  * @return test_values 
