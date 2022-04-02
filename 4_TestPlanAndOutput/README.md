@@ -17,6 +17,6 @@
 |L_01	    | Add the details of new book	                                |   1234,"cs"	                                             |1	     |1	         |Scenario based|
 |L_02	    | View the datails of all books	                              |1234 ,"cs"                                                |	1    |	1	       |Scenario based|
 |L_03	    | Search the details of entered book by giving "ID" and "Name"|	1234	                                                   |1	     |  1	       |Scenario based|
-|L_04	    | update the book status                                      |	1234, "issued", "16/04/21", "31/05/21", "Rahul","J", 900 |	1    |	1	       |Scenario based|
+|L_04	    | update the book status                                      |	1234, "issued", "16/04/22", "31/05/22", "PAVAN","V", 8 |	1    |	1	       |Scenario based|
 |L_05   	| Delete the book by entering the "ID" of the book to delete	|          1234	                                           | 1	   |  1	       |Scenario based|
  
