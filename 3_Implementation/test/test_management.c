@@ -8,7 +8,7 @@ void tearDown(){}
 
 
 void test_enter_new_record(void){
-    TEST_ASSERT_EQUAL(pass,enter_new_record(900, "Data Structures"));
+    TEST_ASSERT_EQUAL(pass,enter_new_record(900, "Data Structures" , "pavan"));
 }
 
 void test_view_all_records(void){
@@ -21,7 +21,7 @@ void test_view_a_record(void){
 }
 
 void test_update_record(void){
-    TEST_ASSERT_EQUAL(pass,update_record(900, "issued", "16/04/21", "31/05/21", "Rahul","J", 12345));
+    TEST_ASSERT_EQUAL(pass,update_record(900, "issued", "02/04/22", "04/05/21", "PAVAN","V", 4));
 }
 
 void test_delete_record(void){
@@ -39,3 +39,4 @@ int main(){
     
     return UNITY_END();
 }
+
