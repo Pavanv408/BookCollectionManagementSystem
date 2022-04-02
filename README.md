@@ -14,5 +14,5 @@
  ![code quality score](https://api.codiga.io/project/32369/score/svg)
 * code grade
  ![code grade](https://api.codiga.io/project/32369/status/svg)
- 
- .
+ * valgrind
+ [![Valgrind](https://github.com/Pavanv408/BookCollectionManagementSystem/actions/workflows/valgrind.yml/badge.svg)](https://github.com/Pavanv408/BookCollectionManagementSystem/actions/workflows/valgrind.yml)
