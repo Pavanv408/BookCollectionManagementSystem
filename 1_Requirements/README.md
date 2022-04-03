@@ -25,11 +25,11 @@ The best Book management system offers ease to librarians for better maintenance
 
 Now the Common Features of an BMS Include:
 
-1. Add books
-2. View books
-3. Search books
-4. Update book records
-5. Delete books
+* 1. Add books
+* 2. View books
+* 3. Search books
+* 4. Update book records
+* 5. Delete books
 
 
 # Defining Our System
