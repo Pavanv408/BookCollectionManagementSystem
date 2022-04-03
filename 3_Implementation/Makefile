@@ -45,7 +45,7 @@ run: all
 test:
 	gcc -I $(INC_HEADER) -I $(INC_TEST) $(TEST_SRC) -o $(call FixPath, ./$(TEST_OUTPUT))
 	$(call FixPath, ./$(TEST_OUTPUT))
-
+#unity and Coverage Check
 coverageCheck:
 	gcc -fprofile-arcs -ftest-coverage -I $(INC_HEADER) -I $(INC_TEST) $(TEST_SRC) -o $(call FixPath, $(TEST_OUTPUT))
 	$(call FixPath, ./$(TEST_OUTPUT))
